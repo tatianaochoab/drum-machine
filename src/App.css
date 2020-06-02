@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-all{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/colors-of-music.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.container-drum{
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.829);
+  align-self: center;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+
+}
+.drum-pad-all{
+  
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: solid black;
+  align-self: center;
+}
+.drum-pad{
+width: 25%;
+margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.display-class{
+border: solid #ffc107 2px;
+width: 100%;
+height: 50px;
+border-radius: 10px;
+text-align: center;
+padding-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#display{
+  color: #ffc107;
 }
+
+.controls{
+border: solid black;
+width: 35%;
+height: 80%;
+align-self: center;
+display: flex;
+flex-flow: column wrap;
+justify-content: space-between;
+align-content: center;
+}
+
+.power-btn{
+  width: 100%;
+  font-weight: 700;
+}
+
+.volume{
+  width: 100%;
+}
+
+footer{
+  color:rgb(77, 74, 74);
+  font-size: small;
+  align-self: flex-end;
+}
+
