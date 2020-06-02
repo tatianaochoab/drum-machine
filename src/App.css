@@ -26,7 +26,6 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  border: solid black;
   align-self: center;
 }
 .drum-pad{
@@ -48,7 +47,6 @@ padding-top: 10px;
 }
 
 .controls{
-border: solid black;
 width: 35%;
 height: 80%;
 align-self: center;
