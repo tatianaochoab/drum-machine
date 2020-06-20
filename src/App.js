@@ -164,7 +164,7 @@ class App extends Component {
             changeVolume={(e) => this.changeVolume(e)}
             name={this.state.name}
           />
-          <footer>by Tatiana Ochoa Bautista</footer>
+          <footer>by Tatiana Ochoa 2020</footer>
         </div>
       </div>
     );
